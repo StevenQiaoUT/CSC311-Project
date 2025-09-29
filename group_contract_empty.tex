@@ -1,0 +1,216 @@
+\documentclass[12pt]{article}
+
+% Page layout
+\usepackage{geometry}
+\geometry{
+  top=1in,
+  bottom=1in,
+  left=1in,
+  right=1in,
+  headheight=3ex,
+  headsep=4ex,
+}
+
+% Header/footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead{CSC311}
+\rhead{Machine Learning Project}
+\rfoot{Page \thepage}
+\cfoot{v1.0}
+\lfoot{\copyright Alice Gao 2025}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% Colors (for environments)
+\usepackage{xcolor}
+
+% Formatting
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+
+% Custom environments
+\newenvironment{answer}[1][]{
+  \color{blue}\textbf{Answer:}
+}{}
+
+\newenvironment{alice}[1][]{
+  \color{black}\textbf{Tip:}
+}{}
+
+
+\title{CSC311 Machine Learning Project Group Contract}
+\author{}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+This group contract helps you set and communicate your expectations for working together on the project. If any issues come up, the course staff will use this contract to help resolve them.
+
+Discuss the following questions as a group and fill out the answers below.
+
+\begin{enumerate}
+\item {\bf Group Members:} Write down the full names of your group members and UTORids.
+
+\begin{answer}
+\begin{enumerate}
+  \item Roy Gal (galroy)
+  \item William Gao (gaowill6)
+  \item Steven Qiao (qiaostev)
+  \item Zehao Peng (pengzeh1)
+\end{enumerate}
+\end{answer}
+
+\item {\bf Goals and Expectations} What does each member want to achieve from this project? Are your goals aligned as a group?
+
+\begin{answer}
+\begin{enumerate}
+  \item Roy Gal (galroy)
+  \item William: I would like to deepen my practical experience with machine learning by building a capable model.
+  \item Steven Qiao (qiaostev)
+  \item Zehao Peng (pengzeh1)
+\end{enumerate}
+Our goals are \emph{very} aligned.
+\end{answer}
+
+\item {\bf Group Roles:} What roles are necessary for the success of your project? Who will be assigned to each role? Consider each member’s strengths and weaknesses.
+
+\begin{answer}
+
+Roles will include:
+\begin{enumerate}
+  \item Writers for the Project Proposal and Final Report
+  \item Data Explorer: preparing the dataset, understanding the features at hand.
+  \item Methodology Developer: developing the methodology including model families, optimization techniques, validation method, hyperparameters.
+  \item Model Developer: implementing the model, validating, tuning hyperparameters, measuring performance.
+\end{enumerate}
+
+We are all eager to contribute to developing the model. We plan to divide other tasks as they arise, as we currently aren't sure about our relative strengths and weaknesses. For example, William is typing up this document because he likes \LaTeX.
+
+\end{answer}
+
+\item {\bf Communication:} How will you communicate? What are your expectations for response times? How often will you meet, and for how long? What technology will you use?
+
+\begin{alice}
+
+Schedule a mandatory weekly meeting to stay on track and address issues promptly.
+\end{alice}
+
+\begin{answer}
+Weekly 1-hour meetings (time and location TBD), otherwise email (slow async, expected response time 1 day -- 1 week) or WhatsApp (fast async, expected response time 5 seconds -- 1 day).
+
+\end{answer}
+
+\item {\bf Preparation for Meetings:} What should members do before each weekly meeting?
+
+\begin{alice}
+
+Create a list of to-do items at the end of each meeting and review them at the next meeting.
+
+\end{alice}
+
+\begin{answer}
+Each member should complete their assigned to-do list items. Moreover, they should come having a clear understanding of how to raise any concerns. Finally, stay hydrated and energetic.
+\end{answer}
+
+
+\item {\bf Meeting Conduct:} What are your expectations for attitudes and responses during meetings? How will you manage turn-taking and ensure everyone contributes? How will you make decisions?
+
+\begin{answer}
+  We expect enthusiasm and a positive mindset, although we understand occasional decreases in energy levels or project contribution. Should these issues recur, we will voice our concerns and if necessary, redistribute roles so that everyone can contribute to their strengths. We will generally make decisions by democratic vote, with ties decided by flipping a coin.
+\end{answer}
+
+\begin{alice}
+
+Structure meetings effectively and decide on a method for resolving disagreements, such as consensus or majority vote.
+\end{alice}
+
+\item {\bf Work Structure:} How will you structure the work? Will most of it be done during or outside of meetings? How will you assign responsibilities?
+
+\begin{answer}
+  It will likely be mostly outside of meetings, since we will only have 1 hour of mandatory meeting time. If two members are working on a similar task, it is their decision whether or not to meet on their own time to collaborate. We will tentatively all contribute to most tasks, but we will adapt once we realize our strengths and weaknesses.
+\end{answer}
+
+\begin{alice}
+
+Use a divide-and-conquer approach, ensuring an equal workload for all members.
+\end{alice}
+
+\item {\bf Submission of Deliverables:} How will you submit deliverables? Will all members review the submission before it’s finalized? When should the write-up be ready for review?
+
+\begin{answer}
+
+All members will review the submission, although it is likely we will delegate a single writer to formulate a first draft (such as for this submission). The write-up should be ready 3 days in advance.
+\end{answer}
+
+\begin{alice}
+
+Communicate struggles early and work together to find solutions.
+\end{alice}
+
+\item {\bf Handling Surprises:} How will you deal with unexpected challenges? What should a member do if they can’t deliver on a promise? How will the group respond?
+
+\begin{answer}
+  In face of unexpected challenges, we will use the course resources such as office hours and labs to seek help. If a member cannot deliver, they should give as much notice as possible so that the others may either fill in, or collectively reschedule the task. The group will respond positively, unless it becomes a recurring issue, in which case we would seriously consider rethinking our distribution of tasks.
+\end{answer}
+
+\begin{alice}
+
+Communicate struggles early and work together to find solutions.
+\end{alice}
+
+\item {\bf Conflict Resolution:} How will you handle conflicts? How can a member signal an issue? How will the group respond?
+
+\begin{answer}
+  Our meetings will be safe spaces for all concerns to be voiced. We will catch conflicts early on, and adapt to resolve them, possibly by redistributing responsibilities to accomodate different opinions and strengths.
+\end{answer}
+
+\begin{alice}
+
+Establish a protocol for resolving conflicts and seek help from course staff if needed.
+\end{alice}
+
+\end{enumerate}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
